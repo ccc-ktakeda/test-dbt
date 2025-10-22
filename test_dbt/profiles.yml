@@ -1,0 +1,9 @@
+test_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: IT_USER
+      warehouse: TITAN_WORK
+      database: DWHPTITAN2
+      schema: TSPO
